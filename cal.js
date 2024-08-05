@@ -72,7 +72,7 @@ let clickbtn = function (value) {
             res = num1 / num2
         }
         if (sym == '+') {
-            res = num1 + num2
+                      res = parseFloat(num1) +parseFloat(num2)
         }
         if (sym == '-') {
             res = num1 - num2
