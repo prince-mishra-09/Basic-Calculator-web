@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(10, 10, 10);
+}
+
+.main{
+    /* border: 2px solid white; */
+    padding: 5px;
+    border-radius: 8px;
+    background-color: rgb(181, 176, 176);
+    width: 22em;
+    height: 38.9em;
+    /* padding-top: ; */
+    display: grid;
+    grid-template-columns:5.5em 5.5em 5.5em 5.5em;
+    grid-template-rows: 11.4em 5.5em 5.5em 5.5em 5.5em 5.5em;
+    margin: auto;
+    margin-top: 50px;
+}
+.screen{
+    grid-column: 1/5;
+    background-color: beige;
+    border-radius: 10px;
+    margin: 7px 6px;
+    /* height: 10em; */
+    box-sizing: border-box;
+    /* width: calc(22em - 8px); */
+    color: rgb(0, 0, 0);
+    padding: 12px;
+    text-align: end;
+    align-content: end;
+    overflow: auto;
+    font-size: 5em;
+    
+}
+button{
+    font-size: 2.5em;
+    margin: 4px 4px;
+    border-radius: 55px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0px 7px 5px;
+}
+button:active{
+    background-color:rgb(102, 93, 93);
+    color: white;
+}
+ .del{
+    font-size: 2em;
+ }
+.equal{
+    background-color: rgb(255, 77, 0);
+}
+.decimal{
+    padding-bottom: 20px;    
+}
+
+
